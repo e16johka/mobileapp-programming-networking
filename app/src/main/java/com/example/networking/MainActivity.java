@@ -2,6 +2,20 @@ package com.example.networking;
 
 import android.os.Bundle;
 import android.util.Log;
+import java.util.ArrayList;
+
+ArrayList<String> mountains = new ArrayList<String>(); // Create an ArrayList object
+
+    public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> mountains = new ArrayList<String>();
+        mountains.add("Kebnekaise");
+        mountains.add("Mount Everest");
+        mountains.add("Danmarks hogsta kulle");
+        mountains.add("Kilimanjaro");
+        System.out.println(mountains);
+    }
+}
 
 import androidx.appcompat.app.AppCompatActivity;
 
